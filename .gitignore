@@ -1,0 +1,9 @@
+.vscode/
+
+backend/.mvn
+backend/.gitattributes
+backend/HELP.md
+backend/mvnw
+backend/mvnw.cmd
+
+model/src/__pycache__/

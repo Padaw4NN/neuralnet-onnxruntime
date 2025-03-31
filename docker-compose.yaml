@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  mlflow:
+    build: ./mlflow/
+    container_name: mlflow
+    restart: always
+    ports:
+      - "8085:8085"
+    volumes:
+      - ./mlflow/mlruns/:/app/mlflow/mlruns/
+    environment:
+      - MLFLOW_TRACKING_URI=http://0.0.0.0:8085
+      - MLFLOW_SERVER_HOST=0.0.0.0
+
