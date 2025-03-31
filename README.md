@@ -32,7 +32,7 @@ See also the classes and their respective indexes:
 Please, uses a Python virtual environment.
 
 #### Python
-In the `root' directory of the project:
+In the `root` directory of the project:
 1. $ `pip install -r requirements.txt`
 2. $ `chmod +x run.sh`
 3. $ `./run.sh train`
